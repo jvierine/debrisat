@@ -1,0 +1,18 @@
+!ORDEM ORDEM 3.2.0 file=ORDEM.IN
+1                         ! type of assessment (1=spacecraft 2=telescope/radar)
+2023                         ! year of observation (2016-2050)
+!---------- Spacecraft assessment --------------------------------------------
+1                         ! way to determine orbit (1=apogee and perigee,2=semi major axis and eccentricity)
+900.00                         ! perigee altitude (km)
+900.00                         ! apogee altitude (km)
+0                         ! semi-major axis (km)
+0                         ! eccentricity (0-1)
+89.00                         ! inclination (0 to 180 deg)
+.00                         ! argument of perigee (0 to 360 deg, -1=random)
+.00                         ! right ascension of the ascending node, RAAN (0 to 360 deg, -1=random)
+IGLOO_10x10x1.SIG                         ! file defining all igloo element boundaries (az, el, vel)
+!---------- Telescope/Radar assessment ---------------------------------------
+000.00                         ! sensor latitude (SP=-90 to NP=90)
+000.00                         ! azimuth (0 deg=North, 90 deg=East, to 360 deg)
+000.00                         ! elevation (0 deg=horz to 90 deg=zenith)
+                         ! file defining all igloo element boundaries (alt)
